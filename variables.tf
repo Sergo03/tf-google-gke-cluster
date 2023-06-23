@@ -1,5 +1,6 @@
 variable "GOOGLE_PROJECT" {
   type        = string
+  default     = telegram-bot
   description = "GCP project name"
 }
 
